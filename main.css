@@ -8,3 +8,11 @@
 body{
     background: #32383e;
 }
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+}
