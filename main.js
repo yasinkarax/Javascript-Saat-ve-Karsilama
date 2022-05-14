@@ -10,8 +10,9 @@ let days = [
 ];
 
 let isim = prompt("isminiz: ");
-document.getElementById('name').innerHTML = isim;
 function startTime() {
+    
+    document.getElementById('name').innerHTML = isim;
     const today = new Date();
     let h = today.getHours();
     let m = today.getMinutes();
