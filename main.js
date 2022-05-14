@@ -9,9 +9,9 @@ let days = [
     "pazartesi"
 ];
 
+let isim = prompt("isminiz: ");
+document.getElementById('name').innerHTML = isim;
 function startTime() {
-    let isim = prompt("isminiz: ");
-    document.getElementById('name').innerHTML = isim;
     const today = new Date();
     let h = today.getHours();
     let m = today.getMinutes();
