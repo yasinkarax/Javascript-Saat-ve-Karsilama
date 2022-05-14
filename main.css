@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: #eb891b;
+}
+body{
+    background: #32383e;
+}
